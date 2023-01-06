@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    margin: 80px 150px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+ 
+.nav .menu-header a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+    font-weight: bold;
+}
+
+.nav .menu-header a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
+.body-main {
+    display: flex;
+    margin: 50px 0;
+}
+
+.body-main .left-card img {
+    width: 100%;
+}
+
+.body-main .card {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.body-main .card .text-web {
+    width: 100%;
+    font-size: 50px;
+}
+
+.body-main .card .text-desc {
+    width: 100%;
+}
+
+.body-main .card .text-desc p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.body-main .card .text-desc .c-read-more {
+    margin-top: 100px;
+}
+
+.body-main .card .text-desc .c-read-more .read-more {
+    margin-bottom: 100px;
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(36, 100%, 99%);
+    text-decoration: none;
+    padding: 25px 50px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.body-main .right-card {
+    width: 43%;
+    margin: 0 20px;
+    background-color: hsl(240, 100%, 5%);
+}
+
+.body-main .right-card .new {
+    margin: 50px 35px;
+}
+
+.body-main .right-card .new h1  {
+    color: hsl(35, 77%, 62%);
+    font-size: 50px;
+}
+
+.body-main .right-card .new .content-word-1 a {
+    text-decoration: none;
+    font-size: 25px;
+    color: hsl(36, 100%, 99%);
+}
+
+.body-main .right-card .new .content-word-1 a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.body-main .right-card .new .content-word-2 a {
+    text-decoration: none;
+    font-size: 25px;
+    color: hsl(36, 100%, 99%);
+}
+
+.body-main .right-card .new .content-word-2 a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.body-main .right-card .new .content-word-3 a {
+    text-decoration: none;
+    font-size: 25px;
+    color: hsl(36, 100%, 99%);
+}
+
+.body-main .right-card .new .content-word-3 a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+.body-main .right-card .new .content-word-1 {
+    margin: 50px 0;
+}
+
+.body-main .right-card .new .content-word-1 .word-2 {
+    color: hsl(36, 100%, 99%);
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.body-main .right-card .new .content-word-2 {
+    margin: 50px 0;
+}
+
+.body-main .right-card .new .content-word-2 .word-4 {
+    color: hsl(36, 100%, 99%);
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.body-main .right-card .new .content-word-3  {
+    margin: 50px 0;
+}
+
+.body-main .right-card .new .content-word-3 .word-6 {
+    color: hsl(36, 100%, 99%);
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.three-contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.three-contents  .contents-1 {
+    display: flex;
+    width: 100%;
+}
+
+.three-contents  .contents-1 .content-info {
+    margin: 0 50px;
+    margin-left: 20px;
+}
+
+.three-contents  .contents-2 {
+    display: flex;
+    width: 100%;
+}
+
+.three-contents  .contents-2 .content-info {
+    margin: 0 50px;
+    margin-left: 20px;
+}
+
+.three-contents  .contents-3 {
+    display: flex;
+    width: 100%;
+}
+
+.three-contents  .contents-3 .content-info {
+    margin: 0 50px;
+    margin-left: 20px;
+}
+
+.three-contents .number {
+    margin-bottom: 20px;
+    color: hsl(233, 8%, 79%);
+    font-size: 50px
+}
+
+.three-contents .content-info a {
+    color: hsl(240, 100%, 5%);
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.three-contents .content-info a:hover {
+    color: hsl(5, 85%, 63%)
+}
+
+.three-contents  .content-desc {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+
